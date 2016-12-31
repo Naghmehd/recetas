@@ -23,6 +23,9 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
+#Bower support for Rails projects. Dependency file is bower.json in Rails root dir or Bowerfile if you use DSL. Check out changelog for the latest changes and releases.
+gem "bower-rails", "~> 0.11.0"
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -35,6 +38,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+  gem "rspec"
   gem "rspec-rails", "~> 3.5"
   gem "factory_girl_rails", "~> 4.0"
   gem "capybara"
