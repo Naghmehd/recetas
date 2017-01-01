@@ -26,6 +26,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 #Bower support for Rails projects. Dependency file is bower.json in Rails root dir or Bowerfile if you use DSL. Check out changelog for the latest changes and releases.
 gem "bower-rails", "~> 0.11.0"
 
+gem "foreman"
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -52,4 +54,7 @@ group :development do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+  gem "rails_12factor"
+  gem "rails_stdout_logging"
+  gem "rails_serve_static_assets"
 end
