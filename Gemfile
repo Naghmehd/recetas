@@ -26,6 +26,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 #Bower support for Rails projects. Dependency file is bower.json in Rails root dir or Bowerfile if you use DSL. Check out changelog for the latest changes and releases.
 gem "bower-rails", "~> 0.11.0"
 
+gem 'angular-rails-templates'
+
 gem "foreman"
 
 # Use ActiveModel has_secure_password
